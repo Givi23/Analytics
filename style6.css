@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex_cont{
+    border: 10px solid purple;
+}
+/* .flex_items{ */
+    /* по умолчанию элементы не переносятся на другой ряд занимают всю доступную ширину только одной строки  */
+    /* размер элементов равномерный  */
+    /* font: 900 60px "Roboto", sans-serif;
+    color: white;
+    font-family: sans-serif;
+    text-align: center; 
+    text-shadow: 4px 2px 0 black;  */
+}
+.item-1{
+    background-color: chartreuse;
+}
+.item-2{
+    background-color: blueviolet;
+}
+.item-3{
+    background-color: brown;
+}
+/* .item-4{
+    background-color: cornflowerblue;
+}
+.item-5{
+    background-color: coral;
+}
+.item-6{
+    background-color: darkgreen;
+}
+.item-7{
+    background-color: darkkhaki;
+}
+.item-8{
+    background-color: darksalmon;
+} */
+.flex_cont{
+   
+}
+/* определяем прапорцию распределения свободного прастранства (в несколько раз заберает больше свободного места) но не определяем размер внутренних элементов */
+.flex-item{
+    /* width: 33.33%; */
+    /* width: 300px;
+    flex-grow: 1; */
+    /* определяет размер элементов до распределения свободного прастранства (особенность при горизантальной он усанавливает ширину а при вертикальной устанавливает высоту  (определять можно % и px и т.д.*/
+    /* flex-basis: 300px; */
+    /* (общие свойство для: flex grow (свободное прастранство), flex shrink (свободное прастранство), flex basis дефолтные размеры элементов*/
+    /* flex: 1 0 300; */
+    width: 33,33%;
+    height: 100vh;
+    display: flex;
+    flex-grow: 3;
+    
+    
+    
+}
+.item-1{
+    
+}
+.item-2{
+    /* flex-shrink: 2; */
+    /* flex-grow: 3; */
+}
+.item-3{
+    /* flex-shrink: 3; */
+    /* flex-grow: 3; */  
+}
+/* .item-7{
+    order: -1;
+}
+.item-4{
+    order: 2;
+}
+.item-5{
+    order: 1;
+}
+.item-8{
+    order: 3;
+} */

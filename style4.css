@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+.header{
+    background: #172755;
+    padding:20px 0px;
+    box-sizing: border-box; 
+    width: 100%;
+
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+}
+.header_logo{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;  
+}
+.header_link{
+    color: #8794BA;
+    font-family: 'Roboto';
+    width: 65px;
+    height: 19px;
+    text-decoration: none;
+}
+
+.header_btn a{
+    color: #8794BA;
+    width: 55px;
+    height: 19px;
+    text-decoration: none;
+}
+.header_btn a:last-of-type{
+    color: #8794BA;
+    width: 55px;
+    height: 19px;
+    border-radius: 10px;
+    border: 1px solid #8794BA;
+}
+.main{
+    
+}
+.diagram{
+    background: #172755;
+    position: relative;
+    
+}
+.diagram_wrapper{
+    display: flex;
+}
+.diagram_wrapper img{
+    position: absolute;
+    right: 0;
+}
+.main_text{
+    width: 550px;
+    padding: 164px 0;
+    padding-bottom: 240px;
+    padding-right: 81px;
+
+}
+.main_text h1{  
+    font-size: 50px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.main_text p{
+    font-size: 18px;
+    padding-bottom: 49px;
+}
+.main_text a {
+    width: 238px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #EF2A82;
+    border-radius: 68px;
+    text-decoration: none;    
+}
+.info{
+    position: relative;
+}
+.info_text{
+    padding: 0 269px;
+}
+.info_text h1{
+    font-size: 50px;
+    color: #172755;
+    text-align: center;  
+    padding-bottom: 15px; 
+}
+.info_text p{
+    font-size: 18px;
+    text-align: center;
+    color: #8794BA;
+    padding-bottom: 90px;
+}
+.info_row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 210px;
+   
+}
+.report{
+    width: 80%;
+    margin: 100px auto;
+    
+}
+.report-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.report_text{
+   
+}
+.flex_cont{
+    background: #172755;
+}
+.flex_text{
+    width: 100%;
+
+}
+.flex_text h1{
+    font-size: 30px;
+    text-align: center ;
+    color: #FFFFFF;
+    padding: 52px 0 30px 0;
+}
+.flex_text p{
+    width: 45%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center ;
+    color: #8794BA;
+    padding-bottom: 80px;
+}
+
+
+.flex_card{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+   
+}
+
+.flex_items {
+    width: 30%;
+    min-width: 300px;
+    height: 440px;
+    border-radius: 30px;
+    background: #0F1F4B;
+    padding-top: 50px;
+    text-align: center;
+} 
+.flex_items_white {
+    width: 30%;
+    height: 440px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    padding-top: 50px;
+    text-align: center;
+}
+.flex_title{    
+    width: 94px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.flex_subtitle{
+    width: 104px;
+    color: #8794BA;
+    text-align: center;
+    font-size: 18px;
+}
+.flex_price{
+    width: 87px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.flex_per_month{
+    width: 73px;
+    font-size: 16px;
+    text-align: center;
+    color: #8794BA;
+}
+.flex_btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background: #0F1F4B;
+    color: #FFFFFF;
+}
+
+
+.flex-container{
+    min-height: 100vh;
+    background: #F8F9FF;
+}
+.flex-logo{
+    width: 50%;
+   margin: auto;
+   padding-top: 156px;
+   
+
+}
+.flex-logo h1{
+    width: 431px;
+    font-family: 'Roboto';
+    font-size: 32px;
+    color: #160637;
+    padding-bottom: 75px;
+}
+.flex-logo p{
+    width: 76px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #8989A2;
+}
+.flex-symbols{
+    
+}
+.flex-register{
+    justify-content: right;
+}
+
+
+.footer{
+   background: #1F2F5C;
+   min-height: 50vh;
+  
+}
+.wrapper{
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer_logo{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;  
+}
+.footer_link{
+    color: #8794BA;
+    font-family: 'Roboto';
+    width: 65px;
+    height: 19px;
+    text-decoration: none;
+}

@@ -1,0 +1,174 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* объеденение верх-низ и отдельно лево-право */
+    padding:20px 57px;
+    box-sizing: border-box; 
+    width: 100%;
+    /* фиксирует элемент по кординатом на экране, когда листаем вверх низ */
+    position: fixed;
+    /* чем выше значение (99999) слой на поверхности если значение отрицательное (-9) то будет на заднем плане */
+    z-index: 99999;      
+}
+.header_logo{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+   
+}
+.head_nav{
+    display: flex;
+    gap: 20px;
+}
+.header_link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: rgb(82, 82, 128);
+    
+}
+.header_btn a{
+    text-decoration: none;
+
+}
+/* выбор последнего {a} из header_btn  */
+.header_btn a:last-of-type{
+    border: 1px solid rgb(82, 82, 128);
+    border-radius: 10px; 
+}
+.main{
+     background-color: aqua; 
+     padding: 20px;
+}
+.main_text{ 
+    width: 70%; 
+    /* блок можно выравнивать (margin avto) */
+    margin: auto;
+}
+
+.main_text h1{
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 56px;
+}
+.main_text p{
+    color: rgb(82, 82, 128);
+    text-align: center;
+    
+}
+.main_card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;   
+    gap: 40px;
+    padding-top: 100px;
+}
+.main_card img{
+    width: 100%;
+
+}
+.main_card div{
+    width: 250px;
+}
+.subtitle_card{
+    padding-top: 20px;
+    color: rgb(82, 82, 128);
+    text-align: center;
+}
+
+.cont_price{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.cont_price h1{
+    margin-bottom: 30px;
+}
+.section_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.section_row_reverce{
+    flex-wrap: wrap-reverse;
+}
+.section_row article{
+    width: 35%;
+    min-width: 350px;
+}
+.section_cont{
+    background-color: darkblue;
+}
+.section_price {
+    width: 100%;
+}
+.section_price h1{
+    text-align: center;
+    color: white;
+}
+.section_price p {
+    color: rgb(78, 78, 106);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+.section_card{
+    padding: 50px 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.card_wrapper{
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    background-color: rgb(5, 5, 28);
+    color: white;
+    text-align: center;
+    
+}
+.card_wrapper_white{
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.btn{
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    padding: auto;
+    background-color: darkblue;
+}
+.subtitle_card2{
+    color: rgb(78, 78, 106);
+}
+.btn_pink{
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    padding: auto;
+    background-color: rgb(204, 42, 204);
+}
